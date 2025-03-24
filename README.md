@@ -2,6 +2,7 @@
 # NRF24L01+PA/LNA Arduino Jamming Project
 
 This project uses **Arduino** and the **NRF24L01+PA/LNA module** to perform jamming operations on a specific frequency. The **RF24 library** is used to send data and create interference on the target frequency. The **PA (Power Amplifier)** and **LNA (Low Noise Amplifier)** in this module help to extend the communication range and improve signal reception, making it more effective for jamming purposes.
+**Note:** If you use an **ESP32** instead of Arduino, the performance will be faster due to the higher processing power and additional features like Wi-Fi and Bluetooth. ESP32 has a more powerful CPU, which may handle RF operations more efficiently, especially in scenarios requiring more complex tasks or higher data rates.
 
 ## Requirements
 
